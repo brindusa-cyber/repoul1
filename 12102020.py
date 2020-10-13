@@ -71,30 +71,51 @@ print(x, "=>", a)
 # while True:
 #     print("ruleaza")
 #   #break
+#######
+
 # ce_lmai_mare_numar = 999999
 # number = int(input("Introdu un numar: "))
-
 # while number != -1:
 #     if number > ce_lmai_mare_numar or ce_lmai_mare_numar > number > -1:
 #         number -= 1
 #     elif number < -1:
 #         number += 1
-#         else
+#     else
 #             print(ce_lmai_mare_numar)
-#         print(number)
-#######
-lista = int(input("Introdu un sir de numere: "))
-nrPare = 0
-nrImpare = 0
+#     print(number)
+######
+def function_check():
+    program=int(input"Scrieti numerele ")
 
-while lista != 0:
+    result=[]
+    count=0
+    count1=0
+    while program != 0:
 
-    if lista % 2 == 0:
-        nrPare+= 1
-    else:
-        nrImpare+= 1
-    lista = int(input("Introdu un sir de numere: "))
-print("Aveti {} nr pare si {} nr impare".format(nrPare, nrImpare))
+        if program%2==0:
+            count+=1
+        elif program%2==1:
+            count +=1
+        else
+            print("0 a fost introdus")
+        program = int(input("Scrieti nr-le"))
+    print("Nr de nre pare este.{} si nr de nre impare este {}").format(count1, count2))
+
+function_check()
+
+######
+# lista = int(input("Introdu un sir de numere: "))
+# nrPare = 0
+# nrImpare = 0
+#
+# while lista != 0:
+#
+#     if lista % 2 == 0:
+#         nrPare+= 1
+#     else:
+#         nrImpare+= 1
+#     lista = int(input("Introdu un sir de numere: "))
+# print("Aveti {} nr pare si {} nr impare".format(nrPare, nrImpare))
 
 
 
@@ -102,11 +123,26 @@ print("Aveti {} nr pare si {} nr impare".format(nrPare, nrImpare))
 #      a=int(input("Scrieti numerele: "))
 #     nrPare = 0
 #     nrImpare = 0
-#     while input !+ 0:
+#     while input a !+ 0:
 #         if input_number % 2 == 0:
 #             nrPare+= 1
-######
+#         else:
+#             nrImpare += 1
+#         a=int(input("Scrieti numerele: "))
+# print("Aveti {} nr pare si {} nr impare".format(nrPare, nrImpare))
 
+######
+input_number = int(input("Introduceti nr: "))
+even_count = 0
+odd_count = 0
+
+while input_number != 0:
+    if input_number % 2 == 0:
+        even_count+= 1
+    else: odd_count+= 1
+    input_number = int(input("Introduceti nr: "))
+print("Pare: ", even_count, "\nImpare: " odd_count)
+#######
 
 
 
